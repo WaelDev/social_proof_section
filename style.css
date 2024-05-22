@@ -196,7 +196,8 @@ h1 {
   .container {
     margin-top: 50px;
     padding: 50px;
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     align-items: center;
     justify-content: flex-start;
   }
@@ -204,17 +205,18 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 90%;
   }
 
   .left {
     align-items: center;
-    width: auto;
+    width: 90%;
     margin-bottom: 30px;
   }
 
   h1 {
     font-size: 2.3em;
-    width: 300px;
+    width: auto;
     text-align: center;
   }
 
@@ -226,15 +228,18 @@ h1 {
   .right {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
-    width: auto;
+    width: 90%;
   }
 
   .customer_reviews {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
     margin-top: 40px;
+    width: 90%;
   }
   
   .rated_container {
@@ -242,12 +247,16 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 100%;
     gap: 10px;
     border-radius: 7px;
     margin: 0;
     padding: 10px 10px;
     background: var(--Light-Grayish-magenta);
+  }
+
+  .rated_text {
+    text-align: center;
   }
 
   .review_container {
